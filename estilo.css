@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url('/energias_renovaiveis/imagens/eólica.png'); 
+  background-size: cover;      
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 90%;
+  max-width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1fcebc;
+  text-align: center;
+  border-radius: 5px;
+}
+
+header {
+    background-color: rgba(129, 230, 230, 0.757);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+  }
+
+main {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+  
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+  
+nav ul li {
+  flex-wrap: wrap;
+  padding: 20px 50px;
+  display: inline-block;
+  margin: 0 75px;
+}
+
+
+  
+.header-link {
+  font-family: monospace;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #0da7bbb9;
+  transition: background-color 0.3s, transform 0.3s;
+ }
+  
+ 
+.header-link:hover {
+  background-color: #113f03c0;
+  transform: scale(1.1);
+}
+
+.titulosite1 {
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 60px;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+
+  background: linear-gradient(45deg, #1fcebc, #30b3a5, #088377, #44E3D3 );
+  background-size: 400% 100%; 
+  animation: degrade 10s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+  0%{
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.fonte {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto {
+  font-family: monospace;
+  font-size: 18px;
+}
+ 
+
+.chamativo {
+  max-width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+.energias-renovaveis {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+
+.container-energia {
+  max-width: 60%;
+  margin: 50px;
+  padding: 20px;
+  position: relative;
+  width: auto;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+
+.container-energia:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.container-energia .conteudo {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.container-energia h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+.solar {
+  background-image: url(imagens/solar.jpg);
+}
+
+.eolica {
+  background-image: url(imagens/eolica2.jpg);
+}
+
+.hidreletrica {
+  background-image: url(imagens/hidra.jpg);
+}
+
+.container2 {
+  margin: 50px;
+  padding: 20px;
+  position: relative;
+  width: auto;
+  height: auto;
+  color: white;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  background-image: url(imagens/solar2.jpg);
+}
+
+.container2 h2 {
+  margin-bottom: 2px;
+}
+
+.conteudo2 {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+
+}
+
+.porque {
+  padding: 20px;
+  border:#088377 solid 5px;
+  border-radius: 10px;
+  align-items: center;
+  display:flex;
+  width: 80%;
+  background-color: rgba(129, 230, 230, 0.757);
+}
+
+.porque1 {
+  padding: 10px;
+}
+
+.porque2 {
+  color:white; 
+  background-color: rgba(0, 0, 0, 0.55);
+  align-items: center;
+  display:grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.imagem {
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.imagem:hover {
+  transform: scale(1.1);
+}
+
+.produtos {
+  margin: 50px;
+  align-items: center;
+  border: solid black 2px;
+  background-color: rgba(129, 231, 218, 0.719);
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  display: grid;
+  gap: 50px;
+}
+
+.fonte2 {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: crimson;
+}
+
+.contato {
+  background-color: rgb(224, 253, 252);
+  border-radius: 15px;
+  width: 70%;
+  padding: 30px;
+  margin: 50px;
+}
+
+.contato p {
+  background-color: rgba(128, 128, 128, 0.568);
+  border-radius: 10px;
+}
+
+
+.destaque {
+  background-color: rgba(255, 0, 0, 0.295);
+}
+
+.contato img {
+  border-radius: 30px;
+}
+
+button {
+    font-family: monospace;
+    background-color: #22d3b5;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.3s;
+    margin: 20px;
+    text-align: center;
+  }
+
+button:hover {
+    background-color: #007f5f;
+  }
+
+textarea {
+    resize: none;
+    height: 120px;
+  }
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007f5f;
+    box-shadow: 0 0 5px rgba(0, 127, 95, 0.3);
+  }
+
+input, textarea, select {
+    font-family: monospace;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  label {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .formulario {
+    align-items: center;
+    background-color: rgb(224, 253, 252);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 60%;
+    margin: 50px;
+
+  }
+
+p, h1, h2 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.produtosolar img {
+  max-width: 40%;
+}
+
+.produtoeolica img {
+  max-width: 35%;
+}
+
+.produtohidra img {
+  width: 30%;
+}
+
+.produtocombo img {
+  width: 40%;
+  
+}
+
+@media (max-width: 480px) {
+  .titulosite1 {
+    font-size: clamp(1.2rem, 6vw, 25px);
+    margin: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chamativo {
+    max-width: 50%;
+    margin: auto;
+  }
+  .chamativo img {
+    width: 100px;
+  }
+
+  .container-energia {
+    width: 50%;
+  }
+
+  .container2 {
+    width: 60%;
+    font-size: 80%;
+  }
+
+  .container2 p {
+    font-size: 14px;
+  }
+
+
+  .porque {
+    width: 60%;
+    font-size: 60%;
+  }
+
+  .porque1 p {
+    font-size: 16px;
+  }
+
+  .produtos {
+    width: 60%;
+    font-size: 60%;
+  }
+
+  .produtos p {
+    font-size: 13px;
+  }
+
+  .produtosolar {
+    width: 100%;
+  }
+
+  .produtoeolica {
+    width: 100%;
+  }
+
+  .produtohidra {
+    width: 100%;
+  }
+
+  .produtocombo {
+    width: 100%;
+  }
+
+  body, main {
+    align-items: center;
+  }
+
+  .contato {
+    width: 60%;
+    font-size: 10px;
+  }
+
+  .formulario {
+    width: 60%;
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+  
+  
