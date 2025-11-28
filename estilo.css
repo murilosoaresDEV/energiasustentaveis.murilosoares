@@ -4,7 +4,7 @@
 
 
 body{
-  background-image: url(/imagens/eólica.png); 
+  background-image: url(./imagens/eólica.png); 
   background-size: cover;      
   background-repeat: no-repeat;
   background-attachment: fixed;
