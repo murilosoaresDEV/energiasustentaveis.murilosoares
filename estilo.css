@@ -358,11 +358,11 @@ p, h1, h2 {
 }
 
 .produtohidra img {
-  width: 30%;
+  max-width: 30% ;
 }
 
 .produtocombo img {
-  width: 40%;
+  max-width: 40%;
   
 }
 
